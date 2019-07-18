@@ -63,3 +63,11 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.title {
+    font-size: 60px;
+    border-bottom: 5px solid black;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+}

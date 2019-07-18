@@ -2,6 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-grid.css';
 
 function Square(props) {
     return (
@@ -108,7 +110,15 @@ class Game extends React.Component {
         }
 
         return (
+
             <div className="game">
+                <div className={'container'}>
+<div className={'row'}>
+                    <div className="title">
+                        Tic-Tac-Toe
+                    </div>
+</div>
+                    <div className={'row'}>
                 <div className="game-board">
                     <Board
                         squares={current.squares}
@@ -118,6 +128,8 @@ class Game extends React.Component {
                 <div className="game-info">
                     <div className="status">{status}</div>
                     <ol>{moves}</ol>
+                </div>
+                </div>
                 </div>
             </div>
         );
