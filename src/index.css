@@ -71,3 +71,11 @@ button {
     text-align: center;
     width: 100%;
 }
+
+.game-info {
+    margin: 10px;
+}
+
+.game-board {
+    margin: 10px;
+}
